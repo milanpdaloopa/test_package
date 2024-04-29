@@ -1,3 +1,7 @@
 from setuptools import setup
 
-setup()
+setup(
+      name='database',
+      packages=['database'],
+      package_dir={'database': '.'}
+)
