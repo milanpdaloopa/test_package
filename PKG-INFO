@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: database
+Version: 0.1
+Summary: Shared db
+Home-page: https://www.example.com/
+Author: Your Name
+Author-email: yourname@example.com
+License: BSD-3-Clause  # Example license
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 5.0.4
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.11
+Requires-Dist: Django>=5.0.4
+
+============
+database-shared
+============
+
+Quick start
+-----------
+
+1. Add "polls" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...,
+        "database",
+    ]
+
+2. Run ``python manage.py migrate`` to create the models.
+
+3. Start the development server and visit the admin to create a poll.
